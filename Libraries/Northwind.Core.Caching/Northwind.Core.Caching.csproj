@@ -1,0 +1,19 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Northwind.Core.Domain.Abstractions\Northwind.Core.Domain.Abstractions.csproj" />
+    <ProjectReference Include="..\Northwind.Core\Northwind.Core.csproj" />
+    <ProjectReference Include="..\Northwind.Core.Configuration\Northwind.Core.Configuration.csproj" />
+  </ItemGroup>
+
+<ItemGroup>
+  <PackageReference Include="Microsoft.AspNetCore.Mvc.NewtonsoftJson" />
+  <PackageReference Include="Microsoft.Extensions.Caching.StackExchangeRedis" />
+  <PackageReference Include="Microsoft.Extensions.Caching.SqlServer" />
+</ItemGroup>
+</Project>

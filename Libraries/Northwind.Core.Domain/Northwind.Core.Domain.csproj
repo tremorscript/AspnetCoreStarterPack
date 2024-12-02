@@ -1,0 +1,15 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Northwind.Core.Configuration\Northwind.Core.Configuration.csproj" />
+    <ProjectReference Include="..\Northwind.Core.Domain.Abstractions\Northwind.Core.Domain.Abstractions.csproj" />
+    <ProjectReference Include="..\Northwind.Core.Http\Northwind.Core.Http.csproj" />
+    <ProjectReference Include="..\Northwind.Core\Northwind.Core.csproj" />
+  </ItemGroup>
+
+</Project>
